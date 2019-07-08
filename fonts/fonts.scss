@@ -1,0 +1,300 @@
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito Light'), local('Nunito-Light'), url('nunito/Nunitolight.woff2') format('woff2'), url('nunito/Nunitolight.woff') format('woff'), url('nunito/Nunitolight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito Regular'), local('Nunito-Regular'), url('nunito/Nunitoregular.woff2') format('woff2'), url('nunito/Nunitoregular.woff') format('woff'), url('nunito/Nunitoregular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito SemiBold'), local('Nunito-SemiBold'), url('nunito/Nunitosemibold.woff2') format('woff2'), url('nunito/Nunitosemibold.woff') format('woff'), url('nunito/Nunitosemibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito Italic'), local('Nunito-Italic'), url('nunito/Nunitoitalic.woff2') format('woff2'), url('nunito/Nunitoitalic.woff') format('woff'), url('nunito/Nunitoitalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito ExtraLight Italic'), local('Nunito-ExtraLightItalic'), url('nunito/Nunitoextralightitalic.woff2') format('woff2'), url('nunito/Nunitoextralightitalic.woff') format('woff'), url('nunito/Nunitoextralightitalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito ExtraBold Italic'), local('Nunito-ExtraBoldItalic'), url('nunito/Nunitoextrabolditalic.woff2') format('woff2'), url('nunito/Nunitoextrabolditalic.woff') format('woff'), url('nunito/Nunitoextrabolditalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito ExtraBold'), local('Nunito-ExtraBold'), url('nunito/Nunitoextrabold.woff2') format('woff2'), url('nunito/Nunitoextrabold.woff') format('woff'), url('nunito/Nunitoextrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito Light Italic'), local('Nunito-LightItalic'), url('nunito/Nunitolightitalic.woff2') format('woff2'), url('nunito/Nunitolightitalic.woff') format('woff'), url('nunito/Nunitolightitalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito Black'), local('Nunito-Black'), url('nunito/Nunitoblack.woff2') format('woff2'), url('nunito/Nunitoblack.woff') format('woff'), url('nunito/Nunitoblack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito ExtraLight'), local('Nunito-ExtraLight'), url('nunito/Nunitoextralight.woff2') format('woff2'), url('nunito/Nunitoextralight.woff') format('woff'), url('nunito/Nunitoextralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito Bold Italic'), local('Nunito-BoldItalic'), url('nunito/Nunitobolditalic.woff2') format('woff2'), url('nunito/Nunitobolditalic.woff') format('woff'), url('nunito/Nunitobolditalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito SemiBold Italic'), local('Nunito-SemiBoldItalic'), url('nunito/Nunitosemibolditalic.woff2') format('woff2'), url('nunito/Nunitosemibolditalic.woff') format('woff'), url('nunito/Nunitosemibolditalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito Bold'), local('Nunito-Bold'), url('nunito/Nunitobold.woff2') format('woff2'), url('nunito/Nunitobold.woff') format('woff'), url('nunito/Nunitobold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito Black Italic'), local('Nunito-BlackItalic'), url('nunito/Nunitoblackitalic.woff2') format('woff2'), url('nunito/Nunitoblackitalic.woff') format('woff'), url('nunito/Nunitoblackitalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Light'), local('Poppins-Light'), url('poppins/Poppinslight.woff2') format('woff2'), url('poppins/Poppinslight.woff') format('woff'), url('poppins/Poppinslight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Regular'), local('Poppins-Regular'), url('poppins/Poppinsregular.woff2') format('woff2'), url('poppins/Poppinsregular.woff') format('woff'), url('poppins/Poppinsregular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Poppins-BoldSemiBold'), local('Poppins-SemiBold'), url('poppins/Poppinspoppins-boldsemibold.woff2') format('woff2'), url('poppins/Poppinspoppins-boldsemibold.woff') format('woff'), url('poppins/Poppinspoppins-boldsemibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Thin'), local('Poppins-Thin'), url('poppins/Poppinsthin.woff2') format('woff2'), url('poppins/Poppinsthin.woff') format('woff'), url('poppins/Poppinsthin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Italic'), local('Poppins-Italic'), url('poppins/Poppinsitalic.woff2') format('woff2'), url('poppins/Poppinsitalic.woff') format('woff'), url('poppins/Poppinsitalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Medium Italic'), local('Poppins-MediumItalic'), url('poppins/Poppinsmediumitalic.woff2') format('woff2'), url('poppins/Poppinsmediumitalic.woff') format('woff'), url('poppins/Poppinsmediumitalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins ExtraLight Italic'), local('Poppins-ExtraLightItalic'), url('poppins/Poppinsextralightitalic.woff2') format('woff2'), url('poppins/Poppinsextralightitalic.woff') format('woff'), url('poppins/Poppinsextralightitalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins ExtraBold Italic'), local('Poppins-ExtraBoldItalic'), url('poppins/Poppinsextrabolditalic.woff2') format('woff2'), url('poppins/Poppinsextrabolditalic.woff') format('woff'), url('poppins/Poppinsextrabolditalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'), url('poppins/Poppinsextrabold.woff2') format('woff2'), url('poppins/Poppinsextrabold.woff') format('woff'), url('poppins/Poppinsextrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Light Italic'), local('Poppins-LightItalic'), url('poppins/Poppinslightitalic.woff2') format('woff2'), url('poppins/Poppinslightitalic.woff') format('woff'), url('poppins/Poppinslightitalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Black'), local('Poppins-Black'), url('poppins/Poppinsblack.woff2') format('woff2'), url('poppins/Poppinsblack.woff') format('woff'), url('poppins/Poppinsblack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Thin Italic'), local('Poppins-ThinItalic'), url('poppins/Poppinsthinitalic.woff2') format('woff2'), url('poppins/Poppinsthinitalic.woff') format('woff'), url('poppins/Poppinsthinitalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Poppins-SemiBoldMedium'), local('Poppins-Medium'), url('poppins/Poppinspoppins-semiboldmedium.woff2') format('woff2'), url('poppins/Poppinspoppins-semiboldmedium.woff') format('woff'), url('poppins/Poppinspoppins-semiboldmedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins ExtraLight'), local('Poppins-ExtraLight'), url('poppins/Poppinsextralight.woff2') format('woff2'), url('poppins/Poppinsextralight.woff') format('woff'), url('poppins/Poppinsextralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Bold Italic'), local('Poppins-BoldItalic'), url('poppins/Poppinsbolditalic.woff2') format('woff2'), url('poppins/Poppinsbolditalic.woff') format('woff'), url('poppins/Poppinsbolditalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins SemiBold Italic'), local('Poppins-SemiBoldItalic'), url('poppins/Poppinssemibolditalic.woff2') format('woff2'), url('poppins/Poppinssemibolditalic.woff') format('woff'), url('poppins/Poppinssemibolditalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Bold'), local('Poppins-Bold'), url('poppins/Poppinsbold.woff2') format('woff2'), url('poppins/Poppinsbold.woff') format('woff'), url('poppins/Poppinsbold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Black Italic'), local('Poppins-BlackItalic'), url('poppins/Poppinsblackitalic.woff2') format('woff2'), url('poppins/Poppinsblackitalic.woff') format('woff'), url('poppins/Poppinsblackitalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Thin'), local('Raleway-Thin'), url('raleway/ralewaythin.woff2') format('woff2'), url('raleway/ralewaythin.woff') format('woff'), url('raleway/ralewaythin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Thin Italic'), local('Raleway-ThinItalic'), url('raleway/ralewaythinitalic.woff2') format('woff2'), url('raleway/ralewaythinitalic.woff') format('woff'), url('raleway/ralewaythinitalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url('raleway/ralewayextralight.woff2') format('woff2'), url('raleway/ralewayextralight.woff') format('woff'), url('raleway/ralewayextralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway ExtraLight Italic'), local('Raleway-ExtraLightItalic'), url('raleway/ralewayextralightitalic.woff2') format('woff2'), url('raleway/ralewayextralightitalic.woff') format('woff'), url('raleway/ralewayextralightitalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Light'), local('Raleway-Light'), url('raleway/ralewaylight.woff2') format('woff2'), url('raleway/ralewaylight.woff') format('woff'), url('raleway/ralewaylight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Light Italic'), local('Raleway-LightItalic'), url('raleway/ralewaylightitalic.woff2') format('woff2'), url('raleway/ralewaylightitalic.woff') format('woff'), url('raleway/ralewaylightitalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Regular'), local('Raleway-Regular'), url('raleway/ralewayregular.woff2') format('woff2'), url('raleway/ralewayregular.woff') format('woff'), url('raleway/ralewayregular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Italic'), local('Raleway-Italic'), url('raleway/ralewayitalic.woff2') format('woff2'), url('raleway/ralewayitalic.woff') format('woff'), url('raleway/ralewayitalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Medium'), local('Raleway-Medium'), url('raleway/ralewaymedium.woff2') format('woff2'), url('raleway/ralewaymedium.woff') format('woff'), url('raleway/ralewaymedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Medium Italic'), local('Raleway-MediumItalic'), url('raleway/ralewaymediumitalic.woff2') format('woff2'), url('raleway/ralewaymediumitalic.woff') format('woff'), url('raleway/ralewaymediumitalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url('raleway/ralewaysemibold.woff2') format('woff2'), url('raleway/ralewaysemibold.woff') format('woff'), url('raleway/ralewaysemibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway SemiBold Italic'), local('Raleway-SemiBoldItalic'), url('raleway/ralewaysemibolditalic.woff2') format('woff2'), url('raleway/ralewaysemibolditalic.woff') format('woff'), url('raleway/ralewaysemibolditalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Bold'), local('Raleway-Bold'), url('raleway/ralewaybold.woff2') format('woff2'), url('raleway/ralewaybold.woff') format('woff'), url('raleway/ralewaybold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Bold Italic'), local('Raleway-BoldItalic'), url('raleway/ralewaybolditalic.woff2') format('woff2'), url('raleway/ralewaybolditalic.woff') format('woff'), url('raleway/ralewaybolditalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url('raleway/ralewayextrabold.woff2') format('woff2'), url('raleway/ralewayextrabold.woff') format('woff'), url('raleway/ralewayextrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway ExtraBold Italic'), local('Raleway-ExtraBoldItalic'), url('raleway/ralewayextrabolditalic.woff2') format('woff2'), url('raleway/ralewayextrabolditalic.woff') format('woff'), url('raleway/ralewayextrabolditalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Black'), local('Raleway-Black'), url('raleway/ralewayblack.woff2') format('woff2'), url('raleway/ralewayblack.woff') format('woff'), url('raleway/ralewayblack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway Black Italic'), local('Raleway-BlackItalic'), url('raleway/ralewayblackitalic.woff2') format('woff2'), url('raleway/ralewayblackitalic.woff') format('woff'), url('raleway/ralewayblackitalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
